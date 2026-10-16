@@ -233,7 +233,7 @@
 <body>
 
     <div class="container">
-        <h1> Dave ❤️ Jane<br>郭亚轩 ❤️ 李佳仪 </h1>
+        <h1>Dave ❤️ Jane<br>郭亚轩 ❤️ 李佳仪</h1>
         <p class="subtitle">老婆我现在肚子好饿你还在那上课</p>
 
         <!-- 计时器 -->
@@ -341,8 +341,8 @@
                 images: ["kuer1.jpg"]
             },
             bode: {
-                name: "博德 🐧",
-                desc: "。",
+                name: "博德兄弟 🐧🐧",
+                desc: "",
                 images: ["bode1.jpg"]
             },
             xiaohuoren: {
@@ -352,17 +352,17 @@
             },
             suki: {
                 name: "suki 😻",
-                desc: "。",
+                desc: "",
                 images: ["suki1.jpg"]
             },
             jiyi: {
                 name: "吉伊 ✨",
-                desc: "。",
+                desc: "",
                 images: ["jiyi1.jpg"]
             },
             kapibala: {
                 name: "卡皮巴拉 🍊",
-                desc: "。",
+                desc: "",
                 images: ["kapibala1.jpg"]
             }
         };
@@ -403,7 +403,7 @@
 
             titleEl.innerText = title;
 
-            if (description) {
+            if (description && description.trim() !== "") {
                 descEl.innerText = description;
                 descEl.style.display = "block";
             } else {
